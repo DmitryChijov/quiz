@@ -46,6 +46,10 @@ header {
     border-bottom: 4px solid #dfdfe2;
   }
 
+p::before {
+    content: "Question #";
+}
+
   /* шаблон слилей для скрытия текста, но чтобы его мог прочитать для слепых читатель с экрана */
   .sr-only {
     position: absolute;
